@@ -1,0 +1,7 @@
+format: jb-book
+root: Intro
+parts:
+- caption: Part 1
+  chapters:
+  - file: Demo1
+  - file: Demo1__myst

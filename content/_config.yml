@@ -1,0 +1,21 @@
+title: Demo Styled Updated Book
+author: Tony Hirst
+copyright: "Tony Hirst, 2021"
+only_build_toc_files: true
+exclude_patterns: [.md, ^ipynb, .ipynb/*, _build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints"]
+execute:
+  execute_notebooks: off
+  timeout: 60  
+parse:
+  myst_dmath_double_inline: true
+launch_buttons:
+  notebook_interface        : classic  # The interface interactive links will activate ["classic", "jupyterlab"]
+  thebe                     : true  # Add a thebe button to pages (requires the repository to run on Binder)
+  colab_url                 : "" # The URL of Google Colab (https://colab.research.google.com)
+
+repository:
+  path_to_book              : work/  # A path to your book's folder, relative to the repository root.
+  branch                    : master 
+
+html:
+  extra_footer: ""
