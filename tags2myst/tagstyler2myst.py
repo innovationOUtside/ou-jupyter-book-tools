@@ -42,7 +42,7 @@ def tagstyler2myst(path, overwrite=False, remove=True):
                             nb['cells'][i]['source'] = f":::{{admonition}} Note\n:class: danger\n{source}\n:::"
                             updates = True
                         elif 'alert-info' in tags:
-                            nb['cells'][i]['source'] = f":::{{admonition}} Note\n:class: tip\n{source}\n:::"
+                            nb['cells'][i]['source'] = f":::{{admonition}} Note\n:class: note\n{source}\n:::"
                             updates = True
 
                         if remove:
