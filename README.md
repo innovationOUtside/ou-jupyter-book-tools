@@ -8,7 +8,7 @@ To run the demo:
 
 
 - put your notebooks into `./content` directory;
-- run the appropriate command(s) over them;
+- run the appropriate conversion command(s) over them;
 - build the book: `jupyter book build --path-output . content`
 - view the book (in `./_build/html`).
 
