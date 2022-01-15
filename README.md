@@ -18,3 +18,5 @@ To run the demo:
 - `tags2myst tagstyler content` : wrap the content of [`nb_extension_tagstyler`](https://github.com/innovationOUtside/nb_extension_tagstyler) tagged cells (`alert-danger`, `alert-warning`, `alert-success`, `alert-info`) as a similarly colour themed admonition.
 
 ![](images/jupyter_book_tagstyle.png)
+
+- `tags2myst empinken content` : wrap the content of [`nb_extension_empinken`](https://github.com/innovationOUtside/nb_extension_tagstyler) tagged cells (`alert-danger`, `alert-warning`, `alert-success`, `alert-info`) as a similarly tagged cell.
