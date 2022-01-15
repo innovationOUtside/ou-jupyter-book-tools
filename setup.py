@@ -24,8 +24,8 @@ requirements = get_requirements()
 
 setup(
     name="ou-jupyter-book-tools",
-    packages=['tags2myst'],
-    version='0.0.1',
+    packages=['tags2myst', 'jb_utils'],
+    version='0.0.3',
     author="Tony Hirst",
     author_email="tony.hirst@gmail.com",
     description="Tools for working with Jupyter books.",
