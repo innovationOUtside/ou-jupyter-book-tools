@@ -51,7 +51,7 @@ def tagstyler2myst(path, overwrite=False, remove=True):
                         if remove:
                             for t in tag_set:
                                 # Clear cell output if no report
-                                nb['cells'][i]["tags"] = nb['cells'][i]["tags"].remove(t)
+                                nb['cells'][i]["tags"].remove(t)
 
             if updates:
                 # Create output filename
